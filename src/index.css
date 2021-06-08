@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.item-badge{
+  width: 18px;
+    height: 18px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 80%;
+    top: -2px;
+    right: -8px;
+    background: white;
+    font-weight: bold;
+}
+
+
+.card-container{
+ height: 400px; 
+}
+
+.product-img{
+  width: 80px;
+  height: 80px;
+}
+
+.minus, .add, .remove{
+  font: 1.2rem;
+  cursor: pointer;
+}
+
+.add-minus-product input{
+  width: 30px;
+  text-align: center;
+  margin: 0 5px;
+}
