@@ -31,5 +31,20 @@ export const reducer = (state, action) => {
             })
         }
     }
+
+    if(action.type === 'TOTAL_QTY'){
+        let {totalItem, totalAmount} = state.item.reduce( (accum, curVal) => {
+            let { price, amount } = curVal
+            accum.totalItem += amount
+            accum.totalAmount += price*amount
+            return accum
+        }, { totalItem: 0, totalAmount:0 })
+
+        return {
+            ...state,
+            totalItem,
+            totalAmount
+        }
+    }
     return state
 }

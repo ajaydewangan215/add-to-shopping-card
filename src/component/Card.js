@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react'
+import React, { createContext, useReducer, useEffect } from 'react'
 import ContextCard from './ContextCard'
 import { products } from './Product'
 import { reducer } from './Reducer'
@@ -31,6 +31,13 @@ const Card = () => {
             payload:id
         })
     }
+
+    useEffect(() => {
+        dispatch({
+            type:"TOTAL_QTY"
+        }) 
+    }, [state.item])
+    
     return (
         <>
             <CardContext.Provider value={{...state, removeItem, increament, decreament}}>
