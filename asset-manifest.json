@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/add-to-shopping-card/static/css/main.e41f0c5a.chunk.css",
+    "main.js": "/add-to-shopping-card/static/js/main.18309e03.chunk.js",
+    "main.js.map": "/add-to-shopping-card/static/js/main.18309e03.chunk.js.map",
+    "runtime-main.js": "/add-to-shopping-card/static/js/runtime-main.9c426e9a.js",
+    "runtime-main.js.map": "/add-to-shopping-card/static/js/runtime-main.9c426e9a.js.map",
+    "static/js/2.d6562ed4.chunk.js": "/add-to-shopping-card/static/js/2.d6562ed4.chunk.js",
+    "static/js/2.d6562ed4.chunk.js.map": "/add-to-shopping-card/static/js/2.d6562ed4.chunk.js.map",
+    "static/js/3.f9056b74.chunk.js": "/add-to-shopping-card/static/js/3.f9056b74.chunk.js",
+    "static/js/3.f9056b74.chunk.js.map": "/add-to-shopping-card/static/js/3.f9056b74.chunk.js.map",
+    "index.html": "/add-to-shopping-card/index.html",
+    "static/css/main.e41f0c5a.chunk.css.map": "/add-to-shopping-card/static/css/main.e41f0c5a.chunk.css.map",
+    "static/js/2.d6562ed4.chunk.js.LICENSE.txt": "/add-to-shopping-card/static/js/2.d6562ed4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c426e9a.js",
+    "static/js/2.d6562ed4.chunk.js",
+    "static/css/main.e41f0c5a.chunk.css",
+    "static/js/main.18309e03.chunk.js"
+  ]
+}
